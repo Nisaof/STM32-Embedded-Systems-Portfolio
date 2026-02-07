@@ -1,0 +1,8 @@
+Debug/
+*.launch
+*.cfg
+.settings/
+.project
+.cproject
+mx.scratch
+.DS_Store
