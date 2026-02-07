@@ -12,27 +12,33 @@ The portfolio covers both **high-performance** and **mainstream** STM32 families
 ---
 
 ## 📂 Project Structure
+
+```text
 STM32-Embedded-Systems-Portfolio/
 │
 ├── Embedded_GPIO_Interrupts/
-│ └── Timer-based LED control using TIM interrupts (non-blocking design)
+│   └── Timer-based LED control using TIM interrupts (non-blocking design)
 │
 ├── Embedded_UART_Interface/
-│ └── Interrupt-driven UART communication with serial terminal interaction
+│   └── Interrupt-driven UART communication with serial terminal interaction
 │
 ├── Embedded_ADC_Temperature/
-│ └── Internal temperature sensor monitoring using factory calibration values
+│   └── Internal temperature sensor monitoring using factory calibration values
 │
 ├── Embedded_I2C_BMP280/
-│ └── I2C communication with BMP280 sensor for pressure, temperature & altitude
+│   └── I2C communication with BMP280 sensor for pressure, temperature & altitude
 │
 ├── Embedded_SPI_LIS3DH/
-│ └── SPI-based 3-axis accelerometer interface with modular driver design
+│   └── SPI-based 3-axis accelerometer interface with modular driver design
 │
 ├── Embedded_DAC_Sine_Generator/
-│ └── 12-bit DAC sine wave generation with ADC-based signal verification
+│   └── 12-bit DAC sine wave generation with ADC-based signal verification
 │
 └── README.md
+├── Final_Digital_Level_Project/
+│   └── Accelerometer-based digital spirit level (SPI + UART)
+
+```
 
 
 ---
